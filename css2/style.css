@@ -579,3 +579,26 @@ h6,
         margin-bottom: -75px;
     }
 }
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* whitish transparent background */
+    color: #000;            /* black icon */
+    font-size: 28px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.9); /* slightly whiter on hover */
+    color: #000;  /* keep icon black */
+}
+

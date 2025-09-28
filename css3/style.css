@@ -596,3 +596,24 @@
 .copyright a:hover {
     color: var(--primary) !important;
 }
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;      /* distance from bottom */
+    left: 20px;        /* distance from left */
+    background-color: #25D366;
+    color: white;
+    font-size: 28px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    color: white;
+}

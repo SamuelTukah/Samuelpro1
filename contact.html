@@ -70,7 +70,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark px-3 py-3 py-lg-0">
             <div class="logo"><a >
-                  <img src="img2/scrnblck.png" style="width: 240px; height: px; object-fit: contain;">
+                  <img src="img2/tpbk.png" style="width: 240px; height: px; object-fit: contain;">
                </a></div>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -176,7 +176,7 @@
 
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" >
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Contact Us</h5>
@@ -220,7 +220,51 @@
             
             <div class="row g-5">
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                    <form>
+
+
+                    <!-- Contact Form Starts -->
+ <form action="https://formsubmit.co/samjodigital@gmail.com" method="POST">
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="form-floating">
+          <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+          <label for="name">Your Name</label>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-floating">
+          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+          <label for="email">Your Email</label>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-floating">
+          <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+          <label for="subject">Subject</label>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px" required></textarea>
+          <label for="message">Message</label>
+        </div>
+      </div>
+
+      <!--  Optional hidden fields -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Contact Form Message">
+      <input type="hidden" name="_next" value="https://samjodigital.com">
+      <input type="hidden" name="_template" value="box">
+
+      <button class="btn btn-primary w-100 py-3" type="submit">Send</button>
+      </div>
+    </div>
+  </form>
+  <!--  Contact Form Ends -->
+
+
+
+                    <!-- <form>
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
@@ -238,10 +282,12 @@
                                 <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                             </div>
                         </div>
-                    </form>
+                    </form> -->
+
+                
                 </div>
 
-                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                <div style="display: flex; justify-content: center; margin-bottom: 20px; margin-top: 50px;">
                 <a href="https://www.tiktok.com/@samjodigital" target="_blank">
                     <img src="img/tik2.jpg" alt="TikTok Icon" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
                 </a>
@@ -381,7 +427,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a> -->
 
 
     <!-- JavaScript Libraries -->
@@ -395,6 +441,12 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <a href="https://wa.me/256759512660" target="_blank" class="whatsapp-float">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+
 </body>
 
 </html>
